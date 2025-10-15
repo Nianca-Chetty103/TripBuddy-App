@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Maldives">
+
+    <ImageView
+        android:id="@+id/Image1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/maldives"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/image2" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/image3" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLeft"
+        android:background="@drawable/outline_arrow_left_24"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRight"
+        android:background="@drawable/outline_arrow_right_24"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="290dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:text="Tropical Maldives"
+        android:textSize="20dp"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Come relax in the Maldives and have a full experience Ocean views and deep sea diving, Enjoy spa treatments. "
+        android:textSize="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="25dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/detailsblock"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Travel Expenses"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R2000"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="270dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accommodation"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R2500"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="270dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Extra Expenses"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sight1"
+            android:text="Sightseeing"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R150"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="270dp"
+            android:textSize="20dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/diving"
+            android:text="Diving"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R150"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="270dp"
+            android:textSize="20dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fine1"
+            android:text="Fine-Dining"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R250"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="270dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/total"
+            android:textSize="20dp"
+            android:text="Total payment: "
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="60dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pay1"
+        android:text=" Confirm Payment "
+        android:textColor="@color/white"
+        android:background="@drawable/roundbuttons"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="650dp"/>
+
+
+
+
+
+</RelativeLayout>
