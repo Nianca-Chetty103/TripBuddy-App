@@ -1,5 +1,7 @@
 # TravelApp ✈️
 Your all-in-one travel buddy - plan, explore and enjoy stress-free adventures using TripBuddy. A travel app to fit all your needs. 
+
+<img src="" width="150"> <img src="" width="150"> <img src="" width="150"> <img src="" width="150"> <img src="" width="150"> <img src="" width="150"> <img src="" width="150"> <img src="" width="150">
 ## Problems ❓
 Well when traveling we often face problems like:
 - poor planning where we could miss documentation or even to forget to book for something we may have not thought about whilst we were booking for our next hoilday.
